@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYINLvQRhuJTOd3s9-masnw_pUuiPWfTk&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <title>Document</title>
+</head>
+<body>
+  <!-- start navbar -->
+    <nav id="main-nav">
+        <div class="container">
+            <div class="nav-content">
+                <img src="./img/soft-smart-kmla.png" alt=""> 
+
+                <div class="menu-wrap">
+                  <input type="checkbox" class="toggler">
+                  <div class="hamburger"><div></div></div>
+                  <div class="menu">
+                    <div>
+                      <div>
+                        <ul>
+                          <li><a href="index.html" >Home</a></li>
+                          <li><a href="menu.html" class="current">Menu</a></li>
+                          <li><a href="about.html">About</a></li>
+                         
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <ul class="list">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="menu.html" class="current"> Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                  
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start showcase -->
+<div id="showcase">
+  <h1>Menu</h1>
+    <video autoplay muted loop >
+      <source src="./img/menu.mp4">
+    </video>
+</div>
+<!-- end showcase -->
+
+<!-- start main menu -->
+<div id="menu" class="our-menu">
+  <div class="container">
+    <h2 class="section-title">OUR MENU</h2>
+    <p class=" text-center">
+      little things make us best in town
+    </p>
+    <div class="bottom-line"></div>
+
+    <ul class="shuffle">
+      <li class="selected filter" data-filter='all'>All</li>
+      <li class="filter" data-filter='.Appetizers'>Appetizers</li>
+      <li class="filter" data-filter='.dishes'>dishes</li>
+      <li class="filter" data-filter='.sandwiches'>sandwiches</li>
+      <li class="filter" data-filter='.drinks'>drinks</li>
+    </ul>
+    
+    <div class="containMix" >
+      <div class="mix drinks">
+        <div class="over">
+          <img src="./img/drinks2.jpeg" alt="">
+        </div>
+        <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis eaque eum magni distinctio quae excepturi, explicabo natus impedit ex, sapiente incidunt doloribus.</p>
+            <h2 class="item-text-title">$10</h2>
+          </div>
+        </div>
+        
+      </div>
+       
+      <div class="mix dishes">
+        <div class="over">
+          <img src="./img/dish6.jpg" alt="">
+        </div>
+        <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+      </div>
+
+        <div class="mix Appetizers">
+          <div class="over">
+            <img src="./img/ap2.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix Appetizers">
+          <div class="over">
+           
+            <img src="./img/ap3.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+        
+        <div class="mix sandwiches">
+          <div class="over">
+           
+            <img src="./img/sandwiches1.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix Appetizers">
+          <div class="over">
+           
+            <img src="./img/ap4.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix Appetizers">
+          <div class="over">
+         
+            <img src="./img/ap5.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix Appetizers">
+          <div class="over">
+           
+            <img src="./img/ap6.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix dishes">
+          <div class="over">
+            
+            <img src="./img/dish1.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix dishes">
+          <div class="over">
+            
+            <img src="./img/dish2.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix dishes">
+          <div class="over">
+            <img src="./img/dish3.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+        
+        <div class="mix dishes">
+          <div class="over">
+           
+            <img src="./img/dish4.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix dishes">
+          <div class="over">
+           
+            <img src="./img/dish5.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix Appetizers">
+          <div class="over">
+            <img src="./img/ap1.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix dishes">
+          <div class="over">
+         
+            <img src="./img/dish6.jpg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        
+
+        <div class="mix sandwiches">
+          <div class="over">
+            
+            <img src="./img/sandwiches2.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix sandwiches">
+          <div class="over">
+            
+            <img src="./img/sandwiches3.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix sandwiches">
+          <div class="over">
+            <img src="./img/sandwiches4.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+        <div class="mix sandwiches">
+          <div class="over">
+            <img src="./img/sandwiches5.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+        <div class="mix sandwiches">
+          <div class="over">
+            <img src="./img/sandwiches6.webp" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+
+
+        <div class="mix drinks">
+          <div class="over">
+           
+            <img src="./img/drinks1.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+      
+
+        <div class="mix drinks">
+          <div class="over">
+            
+            <img src="./img/drinks3.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+
+        <div class="mix drinks">
+          <div class="over">
+            <img src="./img/drinks4.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+        <div class="mix drinks">
+          <div class="over">
+            <img src="./img/drinks5.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+        <div class="mix drinks">
+          <div class="over">
+            <img src="./img/drinks6.jpeg" alt="">
+          </div>
+          <div class="item-text">
+          <div class="item-text-wrap">
+            <p class="item-text-category">sunday</p>
+            <h2 class="item-text-title">$22</h2>
+          </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- end menu -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <!-- start footer -->
+    <footer id='main-footer'>
+      <div class="container">
+          <div class="footer-content">
+              
+              <div class="box-1">
+                  <h1>About us</h1>
+                  <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi incidunt sit temporibus dolorum distinctio a consequatur assumenda natus non hic! Vitae consequuntur pariatur consectetur nulla reiciendis, doloremque saepe fugiat voluptatem beatae veritatis facilis nemo quibusdam tenetur ratione unde velit at soluta voluptas praesentium harum? Voluptates sit eaque dolor dolorum commodi.</p>
+                  <h5>Read more -></h5>
+              </div>
+
+              <div class="box-2">
+                  <h1>Recent post</h1>
+
+                  <div class="div-1">
+                      <img src="./img/dining-area.jpg" alt="koko">
+                      <div>
+                          <p> sit amet, consectetur adipisicing elit. Repellat, expedita!</p>
+                          <h5>Read more</h5>
+                      </div>
+                  </div>
+
+                  <div class="div-2">
+                      <img src="./img/dining-area.jpg" alt="koko">
+                      <div>
+                          <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, expedita!</p>
+                          <h5>Read more</h5>
+                      </div>
+                  </div>
+
+              </div>
+
+              <div class="box-3">
+                  <h1>REACH US</h1>
+                  <ul>
+                      <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+                      <li><a href="#"><i class="fab fa-google-plus-g fa-2x"></i></a></li>
+                      <li><a href="#"><i class="fab fa-youtube fa-2x"></i></a></li>
+                      <li><a href="#"><i class="fab fa-snapchat-square fa-2x"></i></a></li>
+                      <li><a href="#"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+                      <div class="clr"></div>
+                  </ul>
+                  <div class="icons">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <h5>Lorem ipsum dolor sit amet, consectetur adipisicing </h5>
+                  <br>
+                  <i class="fas fa-phone"></i>
+                  <h5>01272533477</h5>
+                  <br>
+                  <i class="fas fa-envelope"></i>
+                  <h5>Lorem ipsum dolor sit amet.</h5>
+                </div>
+
+                  
+              </div>
+          </div>
+      </div>
+  </footer>
+  <div class="copyrighT">
+      <P>Copyright &copf; 2020. All Rights reseved</P>
+  </div>
+
+  
+  
+
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <script src="./js/all.min.js"></script>
+   <script src="./js/main.js"></script>
+   <script src="./js/jquery.2.min.js"></script>
+   <script src="./js/jquery.mixitup.min.js"></script>
+   <script src="./js/jquery.nicescroll.min.js"></script>
+   <script>
+    $(function() {  
+      $("html").niceScroll({
+        cursorcolor: '#ffbc00',
+        cursorborder:'none'
+      });
+    })
+   $('.containMix').mixItUp();
+  //  shuffle links
+  $('.shuffle li').click(function(){
+    $(this).addClass('selected').siblings().removeClass("selected")
+  })
+   $(window).load(function(){
+     $('body').css('overflow','auto')
+     $('#loading-overlay').fadeOut(1000)
+   })
+
+ </script>
+  </body>
+</html>
+<!--  -->
